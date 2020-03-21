@@ -1,21 +1,19 @@
-
 import { NgModule, Injector } from "@angular/core";
 import { createCustomElement } from "@angular/elements";
-
-import { AppComponent } from "./app.component";
-import { AppModule } from './app.module';
+import { CardComponent, CardModule } from "projects/components/src/public-api";
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
-  imports: [AppModule],
-  exports: [AppModule]
+  imports: [CardModule,BrowserModule],
+  exports: [CardModule]
 })
 export class AppElementsModule {
   constructor(private injector: Injector) {}
 
   ngDoBootstrap() {
-    const component = createCustomElement(AppComponent, {
+    const component = createCustomElement(CardComponent, {
       injector: this.injector
     });
-    customElements.define("my-component", component);
+    customElements.define("niz-card", component);
   }
 }
