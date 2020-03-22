@@ -243,7 +243,7 @@
       "projectType": "library",
       "root": "projects/components",
       "sourceRoot": "projects/components/src",
-      "prefix": "lib",
+      "prefix": "niz",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",

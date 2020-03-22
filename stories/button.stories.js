@@ -10,7 +10,3 @@ export const Button = () => {
   return btn;
 };
 
-export const Button2 = () => {
-  const btn = document.createElement('niz-button');
-  return btn;
-};

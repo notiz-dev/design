@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:host {
+  @apply flex w-screen bg-gray-400;
+}
+
+.tab {
+  @apply flex justify-center align-middle;
+}
+
+@screen xs {
+  .tab {
+    @apply flex-1;
+  }
+}
+
+@screen md {
+    .tab {
+      @apply h-20 flex-none;
+    }
+  }
