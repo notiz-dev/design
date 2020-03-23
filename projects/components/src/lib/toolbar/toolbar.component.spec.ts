@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NizTabs } from './tabs.component';
+import { NizToolbar } from './toolbar.component';
 
-describe('NizTabs', () => {
-  let component: NizTabs;
-  let fixture: ComponentFixture<NizTabs>;
+describe('NizToolbar', () => {
+  let component: NizToolbar;
+  let fixture: ComponentFixture<NizToolbar>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [NizTabs],
+      declarations: [NizToolbar],
     }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NizTabs);
+    fixture = TestBed.createComponent(NizToolbar);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
