@@ -1,10 +1,6 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
-:host {
-  @apply flex w-screen bg-gray-400;
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 .tab {
   @apply flex justify-center align-middle;
@@ -17,7 +13,7 @@
 }
 
 @screen md {
-    .tab {
-      @apply h-20 flex-none;
-    }
+  .tab {
+    @apply h-20 flex-none;
   }
+}
