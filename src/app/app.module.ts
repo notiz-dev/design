@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { TabsModule, ToolbarModule } from 'components';
+import { NizTabsModule } from '@notiz/ngx-design';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, TabsModule, ToolbarModule],
+  imports: [BrowserModule, AppRoutingModule, NizTabsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -7,4 +7,4 @@ import { NizTabs } from './tabs.component';
   imports: [CommonModule],
   exports: [NizTabs],
 })
-export class TabsModule {}
+export class NizTabsModule {}

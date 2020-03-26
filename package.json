@@ -8,6 +8,7 @@
     "build:elements": "ng build --prod --output-hashing none --project elements && npm run pack:elements",
     "pack:elements": "cat ./dist/elements/{runtime,polyfills,main}-es5.js > dist/elements/elements.js && ls -lah dist/elements/elements.js",
     "build:components": "ng build --project components --prod && ng build --prod --output-hashing none && cp dist/elements-showcase/styles.css dist/components",
+    "build:ngx-design": "ng build components --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

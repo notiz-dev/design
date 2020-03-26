@@ -7,4 +7,4 @@ import { NizToolbar } from './toolbar.component';
   imports: [CommonModule],
   exports: [NizToolbar],
 })
-export class ToolbarModule {}
+export class NizToolbarModule {}
