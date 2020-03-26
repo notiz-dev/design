@@ -1,6 +1,6 @@
 {
   "name": "@notiz/design-showcase",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,11 +9,13 @@
     "pack:elements": "cat ./dist/elements/{runtime,polyfills,main}-es5.js > dist/elements/elements.js && ls -lah dist/elements/elements.js",
     "build:components": "ng build --project components --prod && ng build --prod --output-hashing none && cp dist/elements-showcase/styles.css dist/components",
     "build:ngx-design": "ng build components --prod",
+    "publish:ngx-design": "npm run build:ngx-design && npm publish dist/components --tag alpha",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "storybook": "start-storybook -p 6006 -s ./dist/elements",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "version": "conventional-changelog -p angular -i ./CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "private": true,
   "dependencies": {
