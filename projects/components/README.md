@@ -28,3 +28,11 @@ import { AppRoutingModule } from './app-routing.module';
 })
 export class AppModule {}
 ```
+
+Now use the component `niz-tabs` in your template:
+
+```html
+<niz-tabs>
+  <router-outlet></router-outlet>
+</niz-tabs>
+```
