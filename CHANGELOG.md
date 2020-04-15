@@ -1,3 +1,12 @@
+## [0.0.6](https://github.com/notiz-dev/design/compare/v0.0.4...v0.0.6) (2020-04-15)
+
+
+### Features
+
+* publish to github packages ([72997b2](https://github.com/notiz-dev/design/commit/72997b267c186b33a0bf88decec81760399127e6))
+
+
+
 ## [0.0.5](https://github.com/notiz-dev/design/compare/v0.0.4...v0.0.5) (2020-04-14)
 
 
