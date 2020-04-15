@@ -1,3 +1,24 @@
 <niz-tabs>
-  <router-outlet></router-outlet>
+  <niz-toolbar>
+    <div start>
+      <a class="block focus:outline-none" [routerLink]="['/']">
+        <img class="h-10" src="assets/img/logo-text.svg" alt="notiz.dev" />
+      </a>
+    </div>
+
+    <div end class="md:flex">
+      <a class="block text-white hover:text-gray-400 focus:text-gray-400 focus:outline-none md:ml-2"
+        [routerLink]="['/']">blog</a>
+      <a class="block text-white hover:text-gray-400 focus:text-gray-400 focus:outline-none md:ml-2"
+        [routerLink]="['/']">authors</a>
+      <a class="block text-white hover:text-gray-400 focus:text-gray-400 focus:outline-none md:ml-2"
+        [routerLink]="['/']">tags</a>
+    </div>
+  </niz-toolbar>
+
+  <div class="w-full max-w-screen-xl mx-auto p-2">
+    <router-outlet></router-outlet>
+  </div>
+
+  <niz-footer></niz-footer>
 </niz-tabs>

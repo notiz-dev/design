@@ -4,10 +4,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+:root {
+  --blue: #55b9f3;
+  --cyan: #55f3de;
+  --dark-blue: #556af3;
+}
+
+body {
+  @apply bg-background text-color;
+}
+
 .dark {
-  @apply bg-black;
+  --background: #121212;
+  --text-color: #ffffff;
 }
 
 .light {
-  @apply bg-gray-100;
+  --background: #f4ffff;
+  --text-color: #121212;
 }

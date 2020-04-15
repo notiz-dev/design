@@ -1,27 +1,34 @@
-<niz-toolbar>
-  <div start>
-    <a class="block focus:outline-none" [routerLink]="['/']">
-      <img class="h-10" src="assets/img/logo-text.svg" alt="notiz.dev" />
-    </a>
-  </div>
+<article class="p-8">
+  <section id="logo">
+    <h2 class="text-4xl tracking-tight font-bold">Logo</h2>
 
-  <div end class="md:flex">
-    <a
-      class="block text-white hover:text-gray-400 focus:text-gray-400 focus:outline-none md:ml-2"
-      [routerLink]="['/']"
-      >blog</a
-    >
-    <a
-      class="block text-white hover:text-gray-400 focus:text-gray-400 focus:outline-none md:ml-2"
-      [routerLink]="['/']"
-      >authors</a
-    >
-    <a
-      class="block text-white hover:text-gray-400 focus:text-gray-400 focus:outline-none md:ml-2"
-      [routerLink]="['/']"
-      >tags</a
-    >
-  </div>
-</niz-toolbar>
+  </section>
 
-<niz-footer></niz-footer>
+  <hr class="my-10 border-t-1 border-gray-300">
+
+  <section id="colors">
+    <h2 class="text-4xl tracking-tight font-bold">Colors</h2>
+
+    <div>
+      <h2 class="text-xl tracking-tight font-semibold">Logo colors</h2>
+
+      <div class="mt-2 grid grid-cols-3 gap-16">
+        <div>
+          <div class="h-20 bg-blue"></div>
+          <p class="text-lg font-semibold">notiz blue</p>
+          <p>#55b9f3</p>
+        </div>
+        <div>
+          <div class="h-20 bg-cyan"></div>
+          <p class="text-lg font-semibold">notiz cyan</p>
+          <p>#55b9f3</p>
+        </div>
+        <div>
+          <div class="h-20 bg-dark-blue"></div>
+          <p class="text-lg font-semibold">notiz dark blue</p>
+          <p class="text-lg font-semibold">#55b9f3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
