@@ -1,11 +1,11 @@
-name: Design Package
+name: Publish Design Package
 
 on:
   release:
     types: [created]
 
 jobs:
-  publish-gpr:
+  publish-npm:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
