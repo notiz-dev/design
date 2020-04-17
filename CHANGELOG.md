@@ -1,3 +1,12 @@
+## [0.0.8](https://github.com/notiz-dev/design/compare/v0.0.7...v0.0.8) (2020-04-17)
+
+
+### Features
+
+* **tabs:** new tabs and routerLinks ([3ab1ec2](https://github.com/notiz-dev/design/commit/3ab1ec25d943d6063f91f30b6c33c262cf089811))
+
+
+
 ## [0.0.7](https://github.com/notiz-dev/design/compare/v0.0.6...v0.0.7) (2020-04-15)
 
 
