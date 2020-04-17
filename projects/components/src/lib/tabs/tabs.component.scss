@@ -1,6 +1,9 @@
-
 .tab {
-  @apply flex justify-center align-middle;
+  @apply flex justify-center items-center;
+}
+
+.router-link-active {
+  @apply text-blue;
 }
 
 @screen xs {

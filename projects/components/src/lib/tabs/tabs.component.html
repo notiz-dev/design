@@ -1,10 +1,54 @@
 <nav
-  class="fixed flex md:flex-col xs:flex-row md:h-screen md:w-20 xs:bottom-0 xs:h-20 xs:w-screen bg-gray-800 list-none"
->
-  <div class="tab bg-red-500"></div>
-  <div class="tab bg-green-500"></div>
-  <div class="tab bg-purple-500"></div>
-  <div class="tab bg-yellow-500"></div>
+  class="fixed flex bg-tabs list-none xs:bottom-0 xs:h-20 xs:w-screen md:flex-col xs:flex-row md:h-screen md:w-20">
+  <div class="tab" >
+    <a routerLink="/">
+      <svg class="h-8 w-8"  viewBox="0 0 417 417" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="a">
+            <stop stop-color="#55F3DE" offset="0%"/>
+            <stop stop-color="#55B9F3" offset="82.424%"/>
+            <stop stop-color="#556AF3" offset="100%"/>
+          </linearGradient>
+        </defs>
+        <g stroke-width="32" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="url(#a)" d="M300.13 61.25L23 339 0 384l44.99-23L322.75 83.87z" transform="matrix(-1 0 0 1 400 16)"/>
+          <path d="M43.31 20.69l22.62 22.62-22.62 22.63-22.62-22.63c-6.243-6.248-6.243-16.372 0-22.62h0c6.248-6.243 16.372-6.243 22.62 0z" stroke="#556AF3"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+  <div class="tab">
+    <a routerLink="/search/" routerLinkActive="router-link-active">
+      <svg class="h-8 w-8 hover:text-blue" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path d="M208 80a128 128 0 11-90.51 37.49A127.15 127.15 0 01208 80m0-80C93.12 0 0 93.12 0 208s93.12 208 208 208 208-93.12 208-208S322.88 0 208 0z" opacity=".4"/>
+        <path d="M504.9 476.7L476.6 505a23.9 23.9 0 01-33.9 0L343 405.3a24 24 0 01-7-17V372l36-36h16.3a24 24 0 0117 7l99.7 99.7a24.11 24.11 0 01-.1 34z"/>
+      </svg>
+    </a>
+  </div>
+  <div class="tab">
+    <a routerLink="/blog/" routerLinkActive="router-link-active">
+      <svg class="h-8 w-8 hover:text-blue" fill="currentColor"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+        <path d="M336 63h-80v1a64 64 0 0164 64H64a64 64 0 0164-64v-1H48a48 48 0 00-48 48v352a48 48 0 0048 48h288a48 48 0 0048-48V111a48 48 0 00-48-48z" opacity=".4"/>
+        <path d="M256 64a64 64 0 00-128 0 64 64 0 00-64 64h256a64 64 0 00-64-64zm-64 24a24 24 0 1124-24 23.94 23.94 0 01-24 24z"/>
+      </svg>
+    </a>
+  </div>
+  <div class="tab">
+    <a routerLink="/links/" routerLinkActive="router-link-active">
+      <svg class="h-8 w-8 hover:text-blue" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path d="M44.45 252.59l37.11-37.1c9.84-9.84 26.78-3.3 27.29 10.6a184.45 184.45 0 009.69 52.72 16.08 16.08 0 01-3.78 16.61l-13.09 13.09c-28 28-28.9 73.66-1.15 102a72.07 72.07 0 00102.32.51L270 343.79A72 72 0 00270 242a75.64 75.64 0 00-10.34-8.57 16 16 0 01-6.95-12.6A39.86 39.86 0 01264.45 191l21.06-21a16.06 16.06 0 0120.58-1.74A152.05 152.05 0 01327 400l-.36.37-67.2 67.2c-59.27 59.27-155.7 59.26-215 0s-59.26-155.72.01-214.98z" opacity=".4"/>
+        <path d="M410.33 203.49c28-28 28.9-73.66 1.15-102a72.07 72.07 0 00-102.32-.49L242 168.21A72 72 0 00242 270a75.64 75.64 0 0010.34 8.57 16 16 0 016.94 12.6A39.81 39.81 0 01247.55 321l-21.06 21.05a16.07 16.07 0 01-20.58 1.74A152.05 152.05 0 01185 112l.36-.37 67.2-67.2c59.27-59.27 155.7-59.26 215 0s59.27 155.7 0 215l-37.11 37.1c-9.84 9.84-26.78 3.3-27.29-10.6a184.45 184.45 0 00-9.69-52.72 16.08 16.08 0 013.78-16.61z"/>
+      </svg>
+    </a>
+  </div>
+  <div class="tab">
+    <a routerLink="/tags/">
+      <svg class="h-8 w-8 hover:text-blue" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path d="M202.46 32.19a11.5 11.5 0 00-2.11-.19h-40.63a12 12 0 00-11.81 9.89L132.53 128h65l14.62-81.89a12 12 0 00-9.69-13.92zM72.19 465.89a12 12 0 009.7 13.92A11.5 11.5 0 0084 480h40.64a12 12 0 0011.81-9.89L186.11 192h-65zm163.65 0a12 12 0 009.7 13.92 11.5 11.5 0 002.11.19h40.63a12 12 0 0011.82-9.89L315.47 384h-65zm130.27-433.7A11.5 11.5 0 00364 32h-40.63a12 12 0 00-11.82 9.89L261.89 320h65l48.92-273.89a12 12 0 00-9.7-13.92z" opacity=".4"/>
+        <path d="M44.18 191.81a11.5 11.5 0 002.11.19H285l11-64H53.43a12 12 0 00-11.81 9.89l-7.14 40a12 12 0 009.7 13.92zM7.33 329.89l-7.14 40a12 12 0 009.7 13.92A11.5 11.5 0 0012 384h75l11-64H19.15a12 12 0 00-11.82 9.89zm430.78-201.7A11.5 11.5 0 00436 128h-75l-11 64h78.85a12 12 0 0011.82-9.89l7.14-40a12 12 0 00-9.7-13.92zm-34.29 192a11.5 11.5 0 00-2.11-.19H163l-11 64h242.57a12 12 0 0011.81-9.89l7.14-40a12 12 0 00-9.7-13.92z"/>
+      </svg>
+    </a>
+  </div>
 </nav>
 <main class="flex-1 md:pl-20 xs:pb-20 min-h-screen">
   <ng-content></ng-content>
