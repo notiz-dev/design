@@ -1,3 +1,12 @@
+## [0.0.9](https://github.com/notiz-dev/design/compare/v0.0.8...v0.0.9) (2020-04-18)
+
+
+### Features
+
+* **inline-svg:** new inline-svg component ([e9f10dd](https://github.com/notiz-dev/design/commit/e9f10ddb2f39e780abb0162d39733083a3930eb3))
+
+
+
 ## [0.0.8](https://github.com/notiz-dev/design/compare/v0.0.7...v0.0.8) (2020-04-17)
 
 
