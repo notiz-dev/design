@@ -1,19 +1,12 @@
-.tab {
-  @apply flex justify-center items-center;
-}
-
 .router-link-active {
   @apply text-blue;
 }
+niz-inline-svg {
+  svg {
+    @apply h-8 w-8;
 
-@screen xs {
-  .tab {
-    @apply flex-1;
-  }
-}
-
-@screen md {
-  .tab {
-    @apply h-20 flex-none;
+    &:hover {
+      @apply text-blue;
+    }
   }
 }

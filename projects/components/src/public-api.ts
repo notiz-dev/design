@@ -4,6 +4,8 @@
 
 export * from './lib/footer/footer.module';
 export * from './lib/footer/footer.component';
+export * from './lib/inline-svg/inline-svg.module';
+export * from './lib/inline-svg/inline-svg.component';
 export * from './lib/tabs/tabs.module';
 export * from './lib/tabs/tabs.component';
 export * from './lib/toolbar/toolbar.module';
