@@ -1,3 +1,12 @@
+## [0.0.10](https://github.com/notiz-dev/design/compare/v0.0.9...v0.0.10) (2020-04-19)
+
+
+### Features
+
+* **tabs:** replace [@apply](https://github.com/apply) with values ([bd24481](https://github.com/notiz-dev/design/commit/bd244817f4dde3714332e63148837c77041ad1f0))
+
+
+
 ## [0.0.10](https://github.com/notiz-dev/design/compare/v0.0.8...v0.0.10) (2020-04-19)
 
 
