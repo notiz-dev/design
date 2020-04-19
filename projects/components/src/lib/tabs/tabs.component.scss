@@ -1,12 +1,14 @@
-.router-link-active {
-  @apply text-blue;
+.active-tab {
+  color: var(--blue);
 }
+
 niz-inline-svg {
   svg {
-    @apply h-8 w-8;
+    height: 2rem;
+    width: 2rem;
 
     &:hover {
-      @apply text-blue;
+      color: var(--blue);
     }
   }
 }
