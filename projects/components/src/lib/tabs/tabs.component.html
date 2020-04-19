@@ -1,5 +1,6 @@
 <nav class="fixed flex bg-tabs list-none xs:bottom-0 xs:h-20 xs:w-screen md:flex-col xs:flex-row md:h-screen md:w-20">
-  <div *ngFor="let tab of tabs" class="flex justify-center items-center xs:flex-1 md:h-20 md:flex-none">
+  <div *ngFor="let tab of tabs" class="flex justify-center items-center xs:flex-1 md:flex md:h-20 md:flex-none"
+    [ngClass]="{'xs:hidden': tab.hideOnMobile, 'md:hidden': tab.hideOnDesktop}">
     <a [routerLink]="tab.url" [routerLinkActive]="tab.routeActive ? 'active-tab' : ''">
       <niz-inline-svg [svgSource]="tab.image"></niz-inline-svg>
     </a>

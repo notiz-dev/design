@@ -12,6 +12,7 @@ export class AppComponent {
       url: '/',
       image: 'assets/img/notiz.svg',
       routeActive: false,
+      hideOnMobile: true
     },
     {
       url: '/search/',
@@ -24,9 +25,10 @@ export class AppComponent {
       routeActive: true,
     },
     {
-      url: '/lings/',
+      url: '/links/',
       image: 'assets/img/links.svg',
       routeActive: true,
+      hideOnDesktop: true
     },
     {
       url: '/tags/',
