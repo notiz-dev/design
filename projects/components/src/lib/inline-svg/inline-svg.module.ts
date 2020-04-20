@@ -8,4 +8,4 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [CommonModule, HttpClientModule],
   exports: [InlineSvgComponent]
 })
-export class InlineSvgModule {}
+export class NizInlineSvgModule {}
