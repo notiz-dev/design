@@ -4,6 +4,11 @@
 
 ## Colors
 
+Copy the following styles and tailwind config to apply notiz color palette.
+
+* [styles.scss](./src/styles.scss)
+* [tailwind.config.js](./tailwind.config.js)
+
 | CSS Variable  | Tailwindcss   | Usage           | Value     |
 | ------------- | ------------- | --------------- | --------- |
 | `--blue`      | `*-blue`      | notiz blue      | `#55b9f3` |
@@ -19,36 +24,5 @@ Colors for **dark** and **light** mode.
 | `--text-color`       | `*-color`       | Text color                | `#ffffff` | `#1a202c` |
 | `--text-color-light` | `*-color-light` | Text color light          | `#a0aec0` | `#718096` |
 
-Copy the following styles to apply notiz color palette.
 
-```css
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
 
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
-:root {
-  --blue: #55b9f3;
-  --cyan: #55f3de;
-  --dark-blue: #556af3;
-}
-
-body {
-  @apply bg-background text-color;
-}
-
-.dark {
-  --background: #121212;
-  --tabs: #2d3748;
-  --text-color: #ffffff;
-  --text-color-light: #a0aec0;
-}
-
-.light {
-  --background: #f4ffff;
-  --tabs: #edf2f7;
-  --text-color: #1a202c;
-  --text-color-light: #718096;
-}
-```
