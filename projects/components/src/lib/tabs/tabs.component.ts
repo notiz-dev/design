@@ -4,7 +4,6 @@ export interface Tab{
   url: string;
   routeActive: boolean;
   image: string;
-  classes?: string;
   hideOnMobile?: boolean;
   hideOnDesktop?: boolean;
 }
