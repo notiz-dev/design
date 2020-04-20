@@ -1,3 +1,12 @@
+## [0.0.12](https://github.com/notiz-dev/design/compare/v0.0.11...v0.0.12) (2020-04-20)
+
+
+### Features
+
+* **tabs:** add z-10 ([7b433a9](https://github.com/notiz-dev/design/commit/7b433a95b2e71cd79696c05808cfe34c2e25a0a1))
+
+
+
 ## [0.0.11](https://github.com/notiz-dev/design/compare/v0.0.10...v0.0.11) (2020-04-20)
 
 
