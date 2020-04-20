@@ -1,3 +1,13 @@
+## [0.0.13](https://github.com/notiz-dev/design/compare/v0.0.12...v0.0.13) (2020-04-20)
+
+
+### Features
+
+* **footer:** add gradient on hover ([c8175f3](https://github.com/notiz-dev/design/commit/c8175f32af067859985dbf89d2c12d387f1ad4de))
+* **footer:** hover links ([c18e6a8](https://github.com/notiz-dev/design/commit/c18e6a89511d27ec88c9dba75835a2805c779e14))
+
+
+
 ## [0.0.12](https://github.com/notiz-dev/design/compare/v0.0.11...v0.0.12) (2020-04-20)
 
 
