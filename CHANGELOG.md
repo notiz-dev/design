@@ -1,3 +1,13 @@
+## [0.0.11](https://github.com/notiz-dev/design/compare/v0.0.10...v0.0.11) (2020-04-20)
+
+
+### Features
+
+* **tabs:** hide on mobile or desktop tab prop and classes prop ([d521a4c](https://github.com/notiz-dev/design/commit/d521a4c79d1d8d3c091b88624d110c4fdbe5f8c7))
+* **tabs:** update hide classes ([4a26f89](https://github.com/notiz-dev/design/commit/4a26f8930e373f172521e72cc5a76db824d5c07a))
+
+
+
 ## [0.0.10](https://github.com/notiz-dev/design/compare/v0.0.9...v0.0.10) (2020-04-19)
 
 
