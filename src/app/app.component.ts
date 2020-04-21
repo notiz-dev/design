@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Tab } from '@notiz/ngx-design';
+import { Tab, FooterSection } from '@notiz/ngx-design';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ export class AppComponent {
       url: '/',
       image: 'assets/img/notiz.svg',
       routeActive: false,
-      hideOnMobile: true
+      hideOnMobile: true,
     },
     {
       url: '/search/',
@@ -28,16 +28,67 @@ export class AppComponent {
       url: '/links/',
       image: 'assets/img/links.svg',
       routeActive: true,
-      hideOnDesktop: true
+      hideOnDesktop: true,
     },
     {
       url: '/tags/',
       image: 'assets/img/tags.svg',
       routeActive: true,
-    }
+    },
   ];
 
   copyrightUrl = 'legal/privacy-policy';
 
-  createdWithSvgSources = ['assets/img/scully.svg', 'assets/img/angular.svg', 'assets/img/tailwindcss.svg', 'assets/img/firebase.svg'];
+  createdWithSvgSources = [
+    'assets/img/scully.svg',
+    'assets/img/angular.svg',
+    'assets/img/tailwindcss.svg',
+    'assets/img/firebase.svg',
+  ];
+
+  footerSections: FooterSection[] = [
+    {
+      title: 'notiz.dev',
+      links: [
+        {
+          title: '@notiz_dev',
+          url: 'https://twitter.com/notiz_dev',
+          svg: 'assets/img/twitter-white.svg',
+          external: true,
+        },
+        {
+          title: ' @notiz-dev',
+          url: 'https://github.com/notiz-dev',
+          svg: 'assets/img/github-white.svg',
+          external: true,
+        },
+        {
+          title: 'hi@notiz.dev',
+          url: 'mailto:hi@notiz.dev',
+          svg: 'assets/img/mail.svg',
+          external: true,
+        },
+      ],
+    },
+    {
+      title: 'more',
+      links: [
+        {
+          title: 'all posts',
+          url: '/search/',
+          svg: 'assets/img/blog-white.svg',
+        },
+        {
+          title: 'authors',
+          url: '/search/',
+          svg: 'assets/img/author.svg',
+        },
+        {
+          title: 'tags',
+          url: '/search/',
+          svg: 'assets/img/tags-white.svg',
+        },
+      ],
+    },
+  ];
 }

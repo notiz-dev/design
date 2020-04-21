@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 export interface Tab{
   url: string;
@@ -11,8 +11,7 @@ export interface Tab{
 @Component({
   selector: 'niz-tabs',
   templateUrl: './tabs.component.html',
-  styleUrls: ['./tabs.component.scss'],
-  encapsulation: ViewEncapsulation.None
+  styleUrls: ['./tabs.component.scss']
 })
 export class NizTabs implements OnInit {
 

@@ -1,7 +1,8 @@
-<nav class="fixed flex bg-tabs z-10 xs:flex-row xs:bottom-0 xs:h-20 xs:w-screen md:flex-col md:top-0 md:h-screen md:w-20">
+<nav
+  class="fixed flex bg-tabs z-10 xs:flex-row xs:bottom-0 xs:h-20 xs:w-screen md:flex-col md:top-0 md:h-screen md:w-20">
   <div *ngFor="let tab of tabs" class="flex justify-center items-center xs:flex-1 md:flex md:h-20 md:flex-none"
-  [class.xs:hidden]="tab.hideOnMobile" [class.md:hidden]="tab.hideOnDesktop">
-    <a [routerLink]="tab.url" [routerLinkActive]="tab.routeActive ? 'active-tab' : ''">
+    [class.xs:hidden]="tab.hideOnMobile" [class.md:hidden]="tab.hideOnDesktop">
+    <a class="h-8 w-8 hover:text-blue" [routerLink]="tab.url" [routerLinkActive]="tab.routeActive ? 'active-tab' : ''">
       <niz-inline-svg [svgSource]="tab.image"></niz-inline-svg>
     </a>
   </div>
