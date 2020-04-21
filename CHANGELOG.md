@@ -1,3 +1,14 @@
+## [0.0.14](https://github.com/notiz-dev/design/compare/v0.0.13...v0.0.14) (2020-04-21)
+
+
+### Features
+
+* **footer:** add footer sections input ([71c13ea](https://github.com/notiz-dev/design/commit/71c13ea6b57eba454d2c9678572c5573d6557c9d))
+* **footer:** copyrightUrl and created with svg images ([f8f139f](https://github.com/notiz-dev/design/commit/f8f139fce25e2c018d4f405d777e0ac4d8e3d6ca))
+* **inline-svg:** display as block ([970160d](https://github.com/notiz-dev/design/commit/970160d513e73ddb364d2ed1424fcb90cd0365c1))
+
+
+
 ## [0.0.13](https://github.com/notiz-dev/design/compare/v0.0.12...v0.0.13) (2020-04-20)
 
 
