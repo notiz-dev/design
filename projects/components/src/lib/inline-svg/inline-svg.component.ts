@@ -3,16 +3,15 @@ import {
   OnInit,
   Input,
   ElementRef,
-  ViewEncapsulation,
 } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'niz-inline-svg',
   template: '',
-  encapsulation: ViewEncapsulation.None,
+  styleUrls: ['inline-svg.component.scss']
 })
-export class InlineSvgComponent implements OnInit {
+export class NizInlineSvg implements OnInit {
   @Input() svgSource: string;
 
   constructor(
