@@ -1,6 +1,26 @@
 {
   "name": "@notiz/design-showcase",
   "version": "0.0.14",
+  "author": "notiz Team",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Gary Großgarten",
+      "email": "gary@fivethree.io"
+    },
+    {
+      "name": "Marc Stammerjohann",
+      "email": "marc@fivethree.io"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notiz-dev/design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/notiz-dev/design/issues"
+  },
+  "homepage": "https://github.com/notiz-dev/design#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
