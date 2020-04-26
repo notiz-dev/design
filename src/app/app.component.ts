@@ -40,8 +40,8 @@ export class AppComponent {
   copyrightUrl = 'legal/privacy-policy';
 
   createdWithSvgSources = [
-    'assets/img/scully.svg',
     'assets/img/angular.svg',
+    'assets/img/scully.svg',
     'assets/img/tailwindcss.svg',
     'assets/img/firebase.svg',
   ];
