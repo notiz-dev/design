@@ -1,0 +1,8 @@
+<div class="flex justify-center items-center xs:flex-1 md:flex md:h-24 md:flex-none" [ngClass]="'logo'"
+  [class.xs:hidden]="tab.hideOnMobile" [class.md:hidden]="tab.hideOnDesktop">
+  <a class="flex flex-col items-center hover:text-blue" [class.hover:text-color]="tab.logo" [routerLink]="tab.url"
+    [routerLinkActive]="tab.routeActive ? 'active-tab' : ''">
+    <niz-inline-svg class="h-8 w-8" [svgSource]="tab.image"></niz-inline-svg>
+    <span *ngIf="tab.text" class="mt-1 text-lg font-semibold tracking-tight">{{tab.text}}</span>
+  </a>
+</div>

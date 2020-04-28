@@ -10,12 +10,15 @@ export class AppComponent {
   tabs: Tab[] = [
     {
       url: '/',
+      logo: true,
+      text: 'notiz',
       image: 'assets/img/notiz.svg',
       routeActive: false,
       hideOnMobile: true,
     },
     {
       url: '/search/',
+      text: 'search',
       image: 'assets/img/search.svg',
       routeActive: true,
     },

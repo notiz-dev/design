@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NizTabs } from './tabs.component';
-import { RouterModule } from '@angular/router';
-import { NizInlineSvgModule } from '../inline-svg/inline-svg.module';
+import { NizTabModule } from '../tab/tab.module';
 
 @NgModule({
   declarations: [NizTabs],
-  imports: [CommonModule, RouterModule, NizInlineSvgModule],
+  imports: [CommonModule, NizTabModule],
   exports: [NizTabs],
 })
 export class NizTabsModule {}
