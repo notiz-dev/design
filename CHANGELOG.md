@@ -1,3 +1,12 @@
+## [0.0.16](https://github.com/notiz-dev/design/compare/v0.0.15...v0.0.16) (2020-04-28)
+
+
+### Bug Fixes
+
+* **tab:** set host display to contents ([3d1545f](https://github.com/notiz-dev/design/commit/3d1545f5668e0528885abff1d0ddc1d3d20213d5))
+
+
+
 ## [0.0.15](https://github.com/notiz-dev/design/compare/v0.0.14...v0.0.15) (2020-04-28)
 
 
