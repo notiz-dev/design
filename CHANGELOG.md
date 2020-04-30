@@ -1,3 +1,19 @@
+## [0.0.17](https://github.com/notiz-dev/design/compare/v0.0.16...v0.0.17) (2020-04-30)
+
+
+### Bug Fixes
+
+* **inline-svg:** apply svg height only to component ([5afffcb](https://github.com/notiz-dev/design/commit/5afffcb50e593ac805fa9d0388fddeeadfb971ff))
+* **svg:** svg fit size of host ([4d004c6](https://github.com/notiz-dev/design/commit/4d004c62e842e5f17f13b911e716e3fbe38c774c))
+
+
+### Features
+
+* **footer:** add text-justify to about text ([33fdac2](https://github.com/notiz-dev/design/commit/33fdac244ad6e7830807ca69d974ed49d74fc0d7))
+* **tab:** increase inline-svg size ([d169d3c](https://github.com/notiz-dev/design/commit/d169d3c7c26f7e7f9d542b0ffe2ee0079ce5b97b))
+
+
+
 ## [0.0.16](https://github.com/notiz-dev/design/compare/v0.0.15...v0.0.16) (2020-04-28)
 
 
