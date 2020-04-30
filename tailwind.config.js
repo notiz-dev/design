@@ -11,7 +11,7 @@ module.exports = {
         background: 'var(--background)',
         color: 'var(--text-color)',
         'color-light': 'var(--text-color-light)',
-        tabs: 'var(--tabs)'
+        tabs: 'var(--tabs)',
       },
     },
     screens: {
