@@ -3,12 +3,13 @@
     <div class="p-4">
       <p class="text-sm text-color-light">about</p>
       <div>
-        <p class="my-4 text-color">
+        <p class="my-4 text-color text-justify">
           <strong>*notiz.dev</strong> is created by <a class="gradient text-cyan"
             href="https://notiz.dev/authors/gary-grossgarten">Gary
             Großgarten</a>
           and <a class="gradient text-cyan" href="https://notiz.dev/authors/marc-stammerjohann">Marc Stammerjohann</a>.
-          We love to share our experiences and findings working with Angular, NestJS, Web Components and more. 👀 We are excited about the upcoming years of web development and hope to make some friends along the way.
+          We love to share our experiences and findings working with Angular, NestJS, Web Components and more. 👀 We are
+          excited about the upcoming years of web development and hope to make some friends along the way.
         </p>
         <p class="my-4">
           <em class="text-color text-xs">* notiz [noˈtiːt͡s] - (german) short, brief, written record</em>
@@ -21,11 +22,11 @@
         <div class="mt-4 space-y-2">
           <ng-container *ngFor="let link of footerSection.links">
             <a [href]="link.url" *ngIf="link.external" target="_blank"
-              class="text-color flex items-center justify-center rounded-full hover:text-blue hover:bg-blue-opacity-10 p-1 mx-5">
+              class="text-color flex items-center justify-center text-justify rounded-full hover:text-blue hover:bg-blue-opacity-10 p-1 mx-5">
               <ng-container *ngTemplateOutlet="myTemplate"></ng-container>
             </a>
             <a [routerLink]="link.url" *ngIf="!link.external"
-              class="text-color flex items-center justify-center rounded-full hover:text-blue hover:bg-blue-opacity-10 p-1 mx-5">
+              class="text-color flex items-center justify-center text-justify rounded-full hover:text-blue hover:bg-blue-opacity-10 p-1 mx-5">
               <ng-container *ngTemplateOutlet="myTemplate"></ng-container>
             </a>
 
