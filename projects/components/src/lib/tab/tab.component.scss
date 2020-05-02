@@ -2,6 +2,7 @@
   &:hover {
     .tooltip {
       opacity: 0.96;
+      visibility: visible;
     }
   }
 }
@@ -16,4 +17,5 @@
   transition: opacity 0.3s ease-out;
   opacity: 0;
   left: 10px;
+  visibility: collapse;
 }
