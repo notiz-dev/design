@@ -49,6 +49,7 @@ export class AppComponent {
     text: 'light',
     image: 'assets/img/adjust.svg',
     tooltip: true,
+    cssClasses: 'rotate',
   };
 
   copyrightUrl = 'legal/privacy-policy';

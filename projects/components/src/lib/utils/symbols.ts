@@ -7,4 +7,5 @@ export interface Tab {
   hideOnMobile?: boolean;
   hideOnDesktop?: boolean;
   tooltip?: boolean;
+  cssClasses?: string;
 }
