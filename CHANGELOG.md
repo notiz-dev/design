@@ -1,3 +1,14 @@
+## [0.0.22](https://github.com/notiz-dev/design/compare/v0.0.20...v0.0.22) (2020-05-02)
+
+
+### Bug Fixes
+
+* **tab:** move tooltip out of a tag ([00a08d6](https://github.com/notiz-dev/design/commit/00a08d62e81e399a5ae25c565e3b1875db8aa0b7))
+* **tab:** show tooltip only on tab hover ([d2dc2b9](https://github.com/notiz-dev/design/commit/d2dc2b9f416a4cdcc1fd5025adc92c5ffd96d1f6))
+* **tab:** tooltip text color ([620becb](https://github.com/notiz-dev/design/commit/620becbd0fabc8c32b74b20fa0f46e5e1e54e3ce))
+
+
+
 ## [0.0.21](https://github.com/notiz-dev/design/compare/v0.0.20...v0.0.21) (2020-05-02)
 
 
