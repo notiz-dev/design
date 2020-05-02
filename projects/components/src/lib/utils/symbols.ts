@@ -1,8 +1,8 @@
 export interface Tab {
-  url: string;
+  url?: string;
   logo?: boolean;
   text?: string;
-  routeActive: boolean;
+  routeActive?: boolean;
   image: string;
   hideOnMobile?: boolean;
   hideOnDesktop?: boolean;

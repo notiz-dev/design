@@ -1,4 +1,5 @@
 <niz-tabs [tabs]="tabs">
+  <niz-tab bottom [tab]="themeTab" (click)="bla()"></niz-tab>
   <niz-toolbar>
     <div start>
       <a class="block focus:outline-none" [routerLink]="['/']">
@@ -16,9 +17,10 @@
     </div>
   </niz-toolbar>
 
-  <main class="w-full max-w-screen-xl mx-auto p-2">
+  <main class="w-full max-w-screen-xl mx-auto p-5">
     <router-outlet></router-outlet>
   </main>
 
-  <niz-footer [footerSections]="footerSections" [copyrightUrl]="copyrightUrl" [createdWithSvgSources]="createdWithSvgSources"></niz-footer>
+  <niz-footer [footerSections]="footerSections" [copyrightUrl]="copyrightUrl"
+    [createdWithSvgSources]="createdWithSvgSources"></niz-footer>
 </niz-tabs>

@@ -40,6 +40,10 @@ export class AppComponent {
     },
   ];
 
+  themeTab: Tab = {
+    image: 'assets/img/adjust.svg',
+  };
+
   copyrightUrl = 'legal/privacy-policy';
 
   createdWithSvgSources = [
@@ -94,4 +98,8 @@ export class AppComponent {
       ],
     },
   ];
+
+  bla() {
+    console.log('click theme');
+  }
 }

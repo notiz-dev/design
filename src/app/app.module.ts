@@ -7,6 +7,8 @@ import {
   NizTabsModule,
   NizToolbarModule,
   NizFooterModule,
+  NizInlineSvgModule,
+  NizTabModule,
 } from '@notiz/ngx-design';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -19,6 +21,8 @@ import { AppRoutingModule } from './app-routing.module';
     NizTabsModule,
     NizToolbarModule,
     NizFooterModule,
+    NizInlineSvgModule,
+    NizTabModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
