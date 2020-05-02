@@ -1,3 +1,12 @@
+## [0.0.21](https://github.com/notiz-dev/design/compare/v0.0.20...v0.0.21) (2020-05-02)
+
+
+### Bug Fixes
+
+* **tab:** tooltip text color ([620becb](https://github.com/notiz-dev/design/commit/620becbd0fabc8c32b74b20fa0f46e5e1e54e3ce))
+
+
+
 ## [0.0.20](https://github.com/notiz-dev/design/compare/v0.0.19...v0.0.20) (2020-05-02)
 
 
