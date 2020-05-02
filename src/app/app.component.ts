@@ -21,11 +21,14 @@ export class AppComponent {
       text: 'search',
       image: 'assets/img/search.svg',
       routeActive: true,
+      tooltip: true,
     },
     {
       url: '/blog/',
+      text: 'blog',
       image: 'assets/img/blog.svg',
       routeActive: true,
+      tooltip: true,
     },
     {
       url: '/links/',
@@ -35,13 +38,17 @@ export class AppComponent {
     },
     {
       url: '/tags/',
+      text: 'tags',
       image: 'assets/img/tags.svg',
       routeActive: true,
+      tooltip: true,
     },
   ];
 
   themeTab: Tab = {
+    text: 'light',
     image: 'assets/img/adjust.svg',
+    tooltip: true,
   };
 
   copyrightUrl = 'legal/privacy-policy';
