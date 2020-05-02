@@ -1,3 +1,17 @@
+## [0.0.20](https://github.com/notiz-dev/design/compare/v0.0.19...v0.0.20) (2020-05-02)
+
+
+### Bug Fixes
+
+* **tab:** a full height and width ([ac8eaa4](https://github.com/notiz-dev/design/commit/ac8eaa4b94c8a986b5b1b9d509312fbfa79daf4b))
+
+
+### Features
+
+* **tab:** tooltip text on desktop ([6e5fbfd](https://github.com/notiz-dev/design/commit/6e5fbfd1af8f639218752e7f733a47fc189c81c6))
+
+
+
 ## [0.0.19](https://github.com/notiz-dev/design/compare/v0.0.18...v0.0.19) (2020-05-02)
 
 
