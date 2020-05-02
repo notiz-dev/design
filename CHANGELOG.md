@@ -1,3 +1,12 @@
+## [0.0.18](https://github.com/notiz-dev/design/compare/v0.0.17...v0.0.18) (2020-05-02)
+
+
+### Features
+
+* **tabs:** add bottom area, tab url as optional ([9afb648](https://github.com/notiz-dev/design/commit/9afb648a718e7ea417f9ffbd20af003e1aa0f170))
+
+
+
 ## [0.0.17](https://github.com/notiz-dev/design/compare/v0.0.16...v0.0.17) (2020-04-30)
 
 
