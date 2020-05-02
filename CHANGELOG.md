@@ -1,3 +1,12 @@
+## [0.0.19](https://github.com/notiz-dev/design/compare/v0.0.18...v0.0.19) (2020-05-02)
+
+
+### Bug Fixes
+
+* **tab:** remove extra div and add styles to host ([48b5c40](https://github.com/notiz-dev/design/commit/48b5c4035c53b4bb9857635b621d6b30c26bd6fb))
+
+
+
 ## [0.0.18](https://github.com/notiz-dev/design/compare/v0.0.17...v0.0.18) (2020-05-02)
 
 
