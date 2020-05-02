@@ -1,10 +1,13 @@
+:host {
+  &:hover {
+    .tooltip {
+      opacity: 0.96;
+    }
+  }
+}
+
 .active-tab {
   color: var(--blue);
-}
-a:hover {
-  .tooltip {
-    opacity: 0.96;
-  }
 }
 
 .tooltip {

@@ -2,6 +2,6 @@
   [routerLink]="tab.url" [routerLinkActive]="tab.routeActive ? 'active-tab' : ''">
   <niz-inline-svg class="h-8 w-8" [svgSource]="tab.image"></niz-inline-svg>
   <span *ngIf="tab.text && !tab.tooltip" class="mt-1 text-lg font-semibold tracking-tight">{{tab.text}}</span>
-  <span *ngIf="tab.text && tab.tooltip"
-    class="tooltip text-color bg-tabs rounded-full py-1 px-4 hidden md:block">{{tab.text}}</span>
 </a>
+<span *ngIf="tab.text && tab.tooltip"
+  class="tooltip text-color bg-tabs rounded-full py-1 px-4 hidden md:block">{{tab.text}}</span>
