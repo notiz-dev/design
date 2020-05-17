@@ -1,9 +1,14 @@
 import { NgModule, Injector } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
-import { NizTabs, NizToolbar, TabsModule, ToolbarModule } from 'components';
 import { BrowserModule } from '@angular/platform-browser';
+import {
+  NizTabs,
+  NizToolbar,
+  NizTabsModule,
+  NizToolbarModule,
+} from '@notiz/ngx-design';
 
-const modules = [TabsModule, ToolbarModule];
+const modules = [NizTabsModule, NizToolbarModule];
 
 @NgModule({
   imports: [BrowserModule],

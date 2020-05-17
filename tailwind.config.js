@@ -1,4 +1,5 @@
 module.exports = {
+  purge: [],
   theme: {
     extend: {
       colors: {
@@ -13,6 +14,9 @@ module.exports = {
         'color-light': 'var(--text-color-light)',
         tabs: 'var(--tabs)',
       },
+      boxShadow: {
+        double: 'var(--shadow-double)',
+      },
     },
     screens: {
       xx: '0px',
@@ -23,4 +27,8 @@ module.exports = {
       xl: '1280px',
     },
   },
+  variants: {
+    borderWidth: ['responsive', 'hover'],
+  },
+  plugins: [],
 };

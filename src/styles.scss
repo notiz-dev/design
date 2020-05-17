@@ -1,4 +1,5 @@
 @import 'tailwindcss/base';
+@import 'base-styles.scss';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
@@ -26,16 +27,20 @@ body {
 
 .dark {
   --background: #121212;
+  --background-rgb: 18, 18, 18;
   --tabs: #1c1c1c;
   --text-color: #ffffff;
   --text-color-light: #a0aec0;
+  --shadow-double: 7px 7px 10px #0b0b0b, -7px -7px 10px #191919;
 }
 
 .light {
   --background: #ffffff;
+  --background-rgb: 255, 255, 255;
   --tabs: #fafafa;
   --text-color: #1a202c;
   --text-color-light: #718096;
+  --shadow-double: 5px 5px 14px #ededed, -5px -5px 14px #fff;
 }
 
 .rotate niz-inline-svg {
