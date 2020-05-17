@@ -17,6 +17,9 @@ module.exports = {
       boxShadow: {
         double: 'var(--shadow-double)',
       },
+      fontFamily: {
+        sans: ['Muli'],
+      },
     },
     screens: {
       xx: '0px',
