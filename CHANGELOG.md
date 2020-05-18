@@ -1,3 +1,25 @@
+## [0.0.28](https://github.com/notiz-dev/design/compare/v0.0.20...v0.0.28) (2020-05-18)
+
+
+### Bug Fixes
+
+* **footer:** add rel="noreferrer" to external link ([ff8939c](https://github.com/notiz-dev/design/commit/ff8939c40811f01f77855a7d500c7e1f503e50cb))
+* **tab:** add routerLink only for url ([2af58f5](https://github.com/notiz-dev/design/commit/2af58f55f04f7703c28b5af3ea203d3b4918e227))
+* **tab:** move tooltip out of a tag ([00a08d6](https://github.com/notiz-dev/design/commit/00a08d62e81e399a5ae25c565e3b1875db8aa0b7))
+* **tab:** reduce image size ([9f15967](https://github.com/notiz-dev/design/commit/9f159672ed5c4d8538509d039d5fb48d3f20ad7f))
+* **tab:** same height as tabs width ([83ad446](https://github.com/notiz-dev/design/commit/83ad446cb7dd837517bed386ee21c1f958f15d69))
+* **tab:** show tooltip only on tab hover ([d2dc2b9](https://github.com/notiz-dev/design/commit/d2dc2b9f416a4cdcc1fd5025adc92c5ffd96d1f6))
+* **tab:** tooltip text color ([620becb](https://github.com/notiz-dev/design/commit/620becbd0fabc8c32b74b20fa0f46e5e1e54e3ce))
+
+
+### Features
+
+* **chip:** increase padding x and decrease margin ([af8a160](https://github.com/notiz-dev/design/commit/af8a16041aeb9a2f5c89338f86e6894c748ff5a2))
+* **chip:** new chip component ([1a4005a](https://github.com/notiz-dev/design/commit/1a4005a5bfdaa87e073f3342382e9f51bb95548c))
+* **tab:** add cssClasses properties ([a2721e1](https://github.com/notiz-dev/design/commit/a2721e1d614197e1b117ed854ebfcd16a756929e))
+
+
+
 ## [0.0.27](https://github.com/notiz-dev/design/compare/v0.0.20...v0.0.27) (2020-05-17)
 
 
