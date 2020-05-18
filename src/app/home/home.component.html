@@ -47,8 +47,8 @@
   <section id="chips">
     <h2>Chips</h2>
 
-    <niz-chip size="xs" url="search">
-      Java
+    <niz-chip *ngFor="let tag of tags" size="xl" url="search">
+      {{ tag }}
     </niz-chip>
 
     <niz-chip size="sm">
